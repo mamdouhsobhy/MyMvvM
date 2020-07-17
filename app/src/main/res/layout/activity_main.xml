@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.RegisterActivity">
+
+    <EditText
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/name_Register"
+        android:inputType="textPersonName"
+        android:hint="Enter name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        app:layout_constraintTop_toBottomOf="@+id/name_Register"
+        android:id="@+id/phone_Register"
+        android:inputType="number"
+        android:hint="Enter phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        app:layout_constraintTop_toBottomOf="@+id/phone_Register"
+        android:id="@+id/email_Register"
+        android:inputType="textEmailAddress"
+        android:hint="Enter email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        app:layout_constraintTop_toBottomOf="@+id/email_Register"
+        android:id="@+id/pass_Register"
+        android:inputType="textPassword"
+        android:hint="Enter pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        app:layout_constraintTop_toBottomOf="@+id/pass_Register"
+        android:text="Register"
+        android:id="@+id/btn_Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        app:layout_constraintTop_toBottomOf="@+id/btn_Register"
+        android:text="login"
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
