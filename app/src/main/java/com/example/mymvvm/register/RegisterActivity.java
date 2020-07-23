@@ -14,6 +14,7 @@ import androidx.lifecycle.ViewModelProviders;
 import com.example.mymvvm.R;
 import com.example.mymvvm.login.LoginActivity;
 import com.example.mymvvm.model.RegisterModel;
+import com.example.mymvvm.updateProfile.UpdateProfileActivity;
 
 import java.util.HashMap;
 
@@ -60,7 +61,7 @@ public class RegisterActivity extends AppCompatActivity {
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(RegisterActivity.this,LoginActivity.class);
+                Intent intent=new Intent(RegisterActivity.this, LoginActivity.class);
                 startActivity(intent);
             }
         });

@@ -78,6 +78,12 @@ public class HandelCalls {
 
           callRetrofit(restRetrofit.getClientService().profile(),flag,ShowLoadingDialog);
 
+      }else if(flag.equals(DataEnum.logout.name())){
+          callRetrofit(restRetrofit.getClientService().logout(meMap),flag,ShowLoadingDialog);
+
+      }else if(flag.equals(DataEnum.updateProfile.name())){
+          callRetrofit(restRetrofit.getClientService().updateProfile(meMap),flag,ShowLoadingDialog);
+
       }
 
 

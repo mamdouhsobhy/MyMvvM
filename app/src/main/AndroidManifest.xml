@@ -11,8 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".updateProfile.UpdateProfileActivity"></activity>
         <activity android:name=".splach.SplachActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,9 +21,7 @@
         </activity>
         <activity android:name=".login.LoginActivity" />
         <activity android:name=".Profile.ProfileActivity" />
-        <activity android:name=".register.RegisterActivity">
-
-        </activity>
+        <activity android:name=".register.RegisterActivity"></activity>
     </application>
 
 </manifest>

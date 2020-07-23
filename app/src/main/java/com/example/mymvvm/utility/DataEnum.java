@@ -5,5 +5,5 @@ package com.example.mymvvm.utility;
  */
 
 public enum DataEnum {
-    CallCompanyInfo,register,login,profile
+    CallCompanyInfo,register,login,profile,logout,updateProfile
 }
